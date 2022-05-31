@@ -2413,3 +2413,82 @@ responsive
     width: 600px !important;
   }
 }
+/*css for SERVICE MENU*/
+.background-service{
+  background-image: url("../images/service/boujee-nails-spa-service-background.jpg");
+  min-height: 150px;
+}
+.title-service{
+  padding: 50px 0;
+  color: white;
+
+}
+.title-service{
+  font-size: 30px;
+  color: white;
+}
+.description p{
+  font-size: 14px;
+  color: #626262;
+  margin-top: 10px;
+  margin-bottom: 14px;
+}
+
+.div-title{
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+ .title-big{
+   font-size: 30px;
+   color: #777 ;
+   font-weight: 300;
+   padding: 16px 0 16px 0;
+   letter-spacing: 4px;
+ }
+.title-small, .title-small-list{
+  font-size: 18px;
+  color: #333 ;
+}
+.title-small-list{
+  margin-bottom: 16px;
+}
+.text-price{
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 14px;
+}
+.color-price{
+  color: #990000;
+}
+.border-right-img{
+  border-right: 1px solid rgba(255,255,255,0.1);
+}
+.line-dash{
+  border: 1px solid rgba(255,255,255,0.05);
+  height: 0.5px;
+  width: 100%;
+  margin: 40px 0;
+}
+.color-bold{
+  color: #a5792b;
+}
+#women .owl-item:hover h4{
+  color: #ffde97;
+}
+@media(min-width: 768px){
+  .title-big{
+    padding: 0 0 10px 0;
+    font-size: 25px;
+    border-bottom: 2px solid #dee2e6!important;
+  }
+}
+/*H edit for Boujee Nails Spa*/
+html{
+  background-image: url("../images/coco-nails-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+body{
+    background: transparent;
+}
